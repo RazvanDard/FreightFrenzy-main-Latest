@@ -64,11 +64,13 @@ public class auto_blueint extends LinearOpMode {
 
         pipeline = new SamplePipeline();
         webcam.setPipeline(pipeline);
+
         drive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         ElapsedTime runtime1 = new ElapsedTime(0);
         ElapsedTime runtime2 = new ElapsedTime(0);
         ElapsedTime runtime3 = new ElapsedTime(0);
         ElapsedTime runtime4 = new ElapsedTime(0);
+
 
 
         //----------------------------------------------------------------------------------------------

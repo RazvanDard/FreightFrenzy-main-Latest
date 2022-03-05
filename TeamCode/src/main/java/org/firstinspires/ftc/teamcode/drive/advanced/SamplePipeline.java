@@ -64,6 +64,7 @@ public class SamplePipeline extends OpenCvPipeline {
 
     @Override
     public Mat processFrame(Mat input) {
+
         inputToCb(input);
         inputToCb2(input);
         inputToCb3(input);
